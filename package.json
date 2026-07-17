@@ -2,6 +2,7 @@
   "name": "jsbackendendtoend",
   "version": "1.0.0",
   "description": "A backend with the javascript",
+  "type": "module",
   "keywords": [
     "javascript",
     "backend",
@@ -9,9 +10,11 @@
   ],
   "license": "ISC",
   "author": "shubham wable",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
